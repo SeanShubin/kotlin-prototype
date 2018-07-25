@@ -1,4 +1,5 @@
 # Multiplatform Kotlin Project
+This is a minimal example of how to test multiplatform project with a JavaScript and Java Virtual Machine module, that both depend on a common module. 
 
 ## How this project was created
 
