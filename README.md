@@ -27,26 +27,22 @@ Any help getting this up and running with the minimal possible configuration wou
 ### Current Error Message
 
     gradle check
+    e: /Users/sshubin/github/sean/kotlin-prototype/js/src/main/kotlin/com/seanshubin/learn/kotlin/prototype/js/JsGreeter.kt: (6, 39): Unresolved reference: commonGreeter
+    > Task :js:compileKotlin2Js FAILED
     
     FAILURE: Build failed with an exception.
     
-    * Where:
-    Build file '/Users/sshubin/github/sean/kotlin-prototype/common/build.gradle' line: 2
-    
     * What went wrong:
-    Plugin [id: 'kotlin-platform-common', version: '1.2.50'] was not found in any of the following sources:
-    
-    - Gradle Core Plugins (not a core plugin, please see https://docs.gradle.org/4.7/userguide/standard_plugins.html for available core plugins)
-    - Plugin Repositories (could not resolve plugin artifact 'kotlin-platform-common:kotlin-platform-common.gradle.plugin:1.2.50')
-      Searched in the following repositories:
-        Gradle Central Plugin Repository
+    Execution failed for task ':js:compileKotlin2Js'.
+    > Compilation error. See log for more details
     
     * Try:
     Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
     
     * Get more help at https://help.gradle.org
     
-    BUILD FAILED in 2s
+    BUILD FAILED in 0s
+    6 actionable tasks: 1 executed, 5 up-to-date
 
 ## How this project was created
 
